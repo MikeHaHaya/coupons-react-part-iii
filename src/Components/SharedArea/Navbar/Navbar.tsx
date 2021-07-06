@@ -6,6 +6,7 @@ import MenuOpenIcon from '@material-ui/icons/MenuOpen';
 import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import {Button} from "../Button/Button";
 import {createMuiTheme, ThemeProvider} from "@material-ui/core";
+import globals from "../../../Services/Globals/MethodsUri";
 
 function Navbar(): JSX.Element {
 
@@ -62,7 +63,7 @@ function Navbar(): JSX.Element {
                     {/* Navbar items */}
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
 
-                        {/* HomePage */}
+                        {/* HomeLayout */}
                         <li className="nav-item">
                             <NavLink to="/home" className="nav-links" onClick={closeMobileMenu}>
                                 Home

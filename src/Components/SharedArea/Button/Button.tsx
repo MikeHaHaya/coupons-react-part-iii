@@ -28,7 +28,7 @@ export const Button: React.FC<Props> = ({
     const checkButtonSize = sizes.includes(buttonSize) ? buttonSize : sizes[0];
 
     return (
-        <NavLink to="/log-in" className="btn-mobile">
+        <NavLink to="/login" className="btn-mobile">
             <button
                 className={`btn ${checkButtonStyle} ${checkButtonSize}`}
                 onClick={onClick}
